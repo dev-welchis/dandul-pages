@@ -1,0 +1,16 @@
+:root{--paper:#FBF6EC;--card:#FFFDF8;--ink:#3B3428;--sub:#6B6150;--line:#DCCFB4;--deep:#4E6B3A}
+@media (prefers-color-scheme:dark){:root{--paper:#1F1C17;--card:#2A261F;--ink:#EDE6D6;--sub:#B5AC9A;--line:#4A4336;--deep:#A9C98C}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Gowun Dodum",-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;line-height:1.75;font-size:16px}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1{font-family:"Gowun Batang",serif;font-size:28px;margin:0 0 4px}
+h2{font-family:"Gowun Batang",serif;font-size:19px;margin:32px 0 8px;padding-top:16px;border-top:1px dashed var(--line)}
+p,li{margin:6px 0}
+ul{padding-left:20px}
+.sub{color:var(--sub);font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+th{color:var(--sub);font-weight:400;font-size:13px;border-top:none}
+a{color:var(--deep)}
+nav{display:flex;gap:16px;font-size:14px;margin-bottom:24px}
